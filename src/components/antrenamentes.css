@@ -1,0 +1,61 @@
+.antrenamente{
+    display: flex;
+    flex-wrap: wrap;
+}
+.titlu{
+    text-align: center;
+    color:#fff;
+}
+.cardant {
+    transition: 0.3s;
+    width: 25%;
+    color:#fff;
+    text-align: center;
+}
+.antrenori{
+    width: 100%;
+    padding: 0px;
+    border-radius: 5px;}
+.antrtypes{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.tip-antrenament li{
+    border:1px solid #fff ;
+}
+.tip-antrenament{
+    width: 24%;
+    color: #fff;
+    list-style: none;
+   text-align: center;
+   padding: 0px;
+}
+@media only screen and (max-width: 900px) {
+    .cardant{
+    width: 50%;
+  }    
+}
+@media only screen and (max-width: 645px) {
+    .tip-antrenament{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 518px) {
+    .tip-antrenament{
+        width: 70%;
+        margin: 0px;
+    }
+    .tip-antrenament li{
+        margin: 10px;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .cardant{
+        padding:2px ;
+        width: 100%;
+      } 
+      .antrenori{
+        width: 70%;}
+}

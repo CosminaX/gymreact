@@ -1,0 +1,52 @@
+.nutritiepg{
+    color:#fff;
+    justify-content: left;
+    padding: 5px 8px;
+}
+.nutritiepg p{
+    text-align: left;
+}
+.nutritiepg h1{
+    text-align: center;
+}
+.nutritiepg h3{
+    text-align: center;
+}
+.nutrijpg{
+ width: 33%;
+ height: 300px;
+}
+.nutriimage{
+    display: flex;
+    width: 100%;
+}
+@media only screen and (max-width: 1357px) {
+  .nutriimage{
+    width: 100%;
+   }
+   .nutrijpg{
+    height: 200px;
+   }
+}
+@media only screen and (max-width: 1357px) {
+    .nutrijpg{
+        padding: 2px;
+       }
+}
+@media only screen and (max-width: 510px) {
+    .nutriimage{
+      display: grid;
+      justify-content: center;  
+      text-align: center;
+
+     }
+     .nutrijpg{
+      height: 200px;
+      width: 100%;
+      padding: 2px;
+     }
+     .nutritiepg h1{
+     font-size: 20px;
+    }
+
+  }

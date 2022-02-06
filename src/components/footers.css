@@ -1,0 +1,19 @@
+*{
+    background-color:rgb(25, 24, 24);
+}
+.copyright{
+    float: left;
+    padding: 10px;
+    color: #fff;
+}
+p{
+    text-align: center;
+}
+.social-media{
+    float: right;
+    padding: 10px;
+    color:#fff;
+}
+img{
+    padding: 10px;
+}

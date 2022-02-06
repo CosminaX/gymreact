@@ -1,0 +1,56 @@
+
+.banner{
+    width: 100%;
+    height: 600px;
+    padding: 0;
+    opacity: 20%;
+    position: relative;
+}
+.descriere{
+    color: #fff;
+    position: absolute;
+    top:300px;
+    justify-content: center;
+    padding: 0 50px;
+    font-size: 20px;
+}
+.activity{
+    display: flex;
+    flex-wrap: wrap;
+}
+.activitati{
+    width:25%;
+    color: #fff;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.yogaimg{
+    width: 100%;
+    height: 300px;
+}
+
+@media only screen and (max-width: 780px){
+    .activitati{
+        width: 50%;
+    }
+
+}
+@media only screen and (max-width: 616px) {
+.banner{
+    height:400px;
+    }
+.descriere{
+    top:150px;
+    font-size: 15px;
+}
+.titludesc{
+    font-size: 15px;
+}
+}
+@media only screen and (max-width: 579px) {
+    .activitati{
+        width: 100%;
+        padding: 2px;
+    }
+}
